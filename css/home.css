@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+}
+
+#startButton {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40px;
+  padding: 24px 24px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #0f363d; /* 텍스트 색상 */
+  background-color: white; /* 기본 배경색 (밝은 파란색) */
+  border: none;
+  border-radius: 8px; /* 둥근 모서리 */
+  cursor: pointer;
+  transition: all 0.3s ease; /* 모든 변화에 부드러운 전환 효과 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+  font-family: "ChosunCentennial";
+}
+
+/* 호버 시 스타일 */
+#startButton:hover {
+  background-color: #0f363d; /* 호버 시 더 진한 파란색으로 변경 */
+  color: white;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* 그림자를 더 크게 */
+}
